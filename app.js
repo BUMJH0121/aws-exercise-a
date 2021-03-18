@@ -3,7 +3,7 @@ const app = express();
 const ip = require('ip');
 
 app.get('/', (req, res) => {
-  res.send('CodeDeploy로 배포된 AWS exercise의 첫 번째 A project 버전입니다.' + ip.address());
+  res.send('Team5 옥해림, 이진희 범진현입니다. @' + ip.address());
 });
 
 app.listen(3000, () => {
